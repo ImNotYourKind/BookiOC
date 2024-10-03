@@ -90,12 +90,12 @@ a {
 .navcontent::before {
     content: "";
     display: block;
-    width: 113px; /* Largeur de la barre */
-    height: 2px; /* Hauteur de la barre */
-    background-color: #0065FC; /* Couleur de la barre */
+    width: 113px;
+    height: 2px;
+    background-color: #0065FC;
     position: absolute;
-    top: 0; /* Position en haut de .navcontent */
-    left: 0%; /* Centrer horizontalement */
+    top: 0;
+    left: 0%;
     transform: translateX(0%);
 
 }
@@ -147,8 +147,9 @@ margin: 0 0 30px 0;
     border: 1px solid var(--main-bg-color);
 }
 .recherche input[type="text"]:focus {
-    outline: none; /* Enlève la bordure de focus */
+    outline: none; /
 }
+
 .boutonr {
     display: flex;
     position: relative;

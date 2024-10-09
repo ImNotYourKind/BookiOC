@@ -710,10 +710,11 @@ a {
 .activites {
     display: flex;
     flex-direction: column;
-    width: 1,340px;
+    max-width: 1340px;
     height: 559.02px;
     padding: 45px 0px 0px 0px;
     gap: 30px;
+    background-color: rgb(242, 170, 242);
 }
 
 .activites h2 {
@@ -724,25 +725,27 @@ a {
 .activites-cards {
     display: flex;
     justify-content: space-around;
-    width: 1,280px;
+    width: 100%;
     height: 439px;
+    background-color: #b6ffc8;
 }
 
 .activite-card {
     display: flex;
     flex-direction: column;
-    width: 297.5px;
+    max-width: 297.5px;
     height: 439px;
     border-radius: 0px 0px 20px 20px;
+    background-color: rgb(209, 203, 254);
     box-shadow: 0px 3px 15px 0px #0000001A;
 }
 
 .activite-card img {
-    width: 297.5px;
+    width: 100%;
     height: 380px;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
-    object-position: center;
+    border: 2px solid #ff0000;
 }
 
 .activite-card h4 {

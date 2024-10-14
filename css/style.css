@@ -183,11 +183,14 @@ a {
 .filtre {
     display: flex;
     align-items: center;
+    margin-top: 20px;
 
 }
 
 .filtre-bouton {
     display: flex;
+    gap: 15px;
+    margin-left: 15px;
 }
 
 .bouton {
@@ -197,7 +200,7 @@ a {
     border-radius: 25px 25px 25px 25px;
     border: 2px solid #D9D9D9;
     padding: 0 19px;
-    margin-left: 15px;
+
     font-size: 17px;
     font-weight: bold;
     background-color: white;
@@ -218,7 +221,7 @@ a {
     align-items: center;
 
     height: 24px;
-    margin: 40px 0 0 0;
+    margin: 25px 0 0 0;
 }
 
 .ellipse {
@@ -268,7 +271,7 @@ a {
 .hebergements h2 {
     font-size: 22px;
     align-self: flex-start;
-    margin: 0px 0px 25px 0px;
+    margin: 0px;
 }
 
 .hebergements h3 {
@@ -281,8 +284,6 @@ a {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 28px;
-    background-color: turquoise;
 }
 
 .allcards a {
@@ -295,6 +296,7 @@ a {
     height: 207.25px;
     background-color: white;
     border-radius: 20px;
+    margin-top: 30px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 
@@ -445,6 +447,7 @@ a {
 
     .hebergements {
         width: 100%;
+        margin-top: 45px;
     }
 
     .populaires {
@@ -493,9 +496,7 @@ a {
         align-items: flex-start;
     }
 
-    .filtre-bouton {
-
-    }
+    .filtre h3 {}
 
 
 

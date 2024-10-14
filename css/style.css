@@ -173,12 +173,15 @@ margin: 0 0 30px 0;
 
 .filtre  {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin: 20px 0;
-max-width: 758px;
+    background-color: violet;
+}
 
-} 
+    .filtre-bouton {
+        display: flex;
+        background-color: #0065FC;
+    }
+
 .bouton {
     display: flex;
     align-items: center;
@@ -186,32 +189,20 @@ height: 50px;
 border-radius: 25px 25px 25px 25px;
 border: 2px solid #D9D9D9;
 padding: 0 19px;
+margin-right: 15px;
 font-size: 17px;
 font-weight: bold;
 background-color: white;
+white-space: nowrap;
 }
 
-.fa-solid.fa-money-bill-wave {
-    font-size: 20px;
-}
 .bouton i {
     margin-right: 10px;
+    font-size: 22px;
 }
 .bouton:hover {
     background-color: #DEEBFF;
 }
-
-.fa-solid.fa-person {
-    font-size: 22px;
-}
-
-.fa-solid.fa-heart {
-    font-size: 22px;
-}
-
-.fa-solid.fa-fire  {
-    font-size: 21px;
-}   
 
 .infobarre {
     display: flex ;
@@ -778,7 +769,7 @@ a {
     }
 .filtre {
 flex-direction: column;
-align-items: center;
+align-items: flex-start;
 }
 .filtre h3 {
 

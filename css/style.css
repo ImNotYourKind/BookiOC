@@ -55,7 +55,7 @@ a {
 }
 
 .neutral-star {
-    color: var(--main-bg-color)
+    color: var(--main-bg-color);
 }
 
 /****** Header ***********/
@@ -98,7 +98,6 @@ a {
     top: 0;
     left: 0%;
     transform: translateX(0%);
-
 }
 
 .lienbleu {
@@ -106,12 +105,10 @@ a {
 }
 
 /****** Info Groupe ***********/
-
 .infogroup {
     display: flex;
     position: relative;
     flex-direction: column;
-
     height: 281px;
 }
 
@@ -136,7 +133,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-
     width: 50px;
     height: 49px;
     border-radius: 15px 0 0 15px;
@@ -156,7 +152,7 @@ a {
 }
 
 .recherche input[type="text"]:focus {
-    outline: none;/
+    outline: none;
 }
 
 .boutonr {
@@ -184,7 +180,6 @@ a {
     display: flex;
     align-items: center;
     margin-top: 20px;
-
 }
 
 .filtre-bouton {
@@ -197,10 +192,9 @@ a {
     display: flex;
     align-items: center;
     height: 50px;
-    border-radius: 25px 25px 25px 25px;
+    border-radius: 25px;
     border: 2px solid #D9D9D9;
     padding: 0 19px;
-
     font-size: 17px;
     font-weight: bold;
     background-color: white;
@@ -219,7 +213,6 @@ a {
 .infobarre {
     display: flex;
     align-items: center;
-
     height: 24px;
     margin: 25px 0 0 0;
 }
@@ -233,7 +226,6 @@ a {
     border-radius: 50%;
     border: 1px solid #D9D9D9;
     margin: 0 10px 0 0;
-
 }
 
 .fa-solid.fa-info {
@@ -263,7 +255,7 @@ a {
 .hebergements img {
     height: 119px;
     width: 96%;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 0 0;
     border: 5px solid #FFFFFF;
     object-fit: cover;
 }
@@ -271,13 +263,13 @@ a {
 .hebergements h2 {
     font-size: 22px;
     align-self: flex-start;
-    margin: 0px;
+    margin: 0;
 }
 
 .hebergements h3 {
     font-size: 20px;
     align-self: flex-start;
-    margin: 35px 0px 0px 0px;
+    margin: 35px 0 0 0;
 }
 
 .allcards {
@@ -302,7 +294,7 @@ a {
 
 .card-content2 {
     line-height: 25%;
-    padding: 0px 15px;
+    padding: 0 15px;
 }
 
 .card-content2 h3 {
@@ -365,7 +357,6 @@ a {
 }
 
 /****** Activités ***********/
-
 .activites {
     padding: 30px;
     margin-top: 15px;
@@ -373,7 +364,6 @@ a {
 
 .activites h2 {
     font-size: 22px;
-
 }
 
 .activites-cards {
@@ -383,13 +373,13 @@ a {
 }
 
 .activite-card {
-    margin: 0px;
+    margin: 0;
 }
 
 .activites-cards a {
     max-height: 439px;
     width: 23.25%;
-    border-radius: 0px 0px 20px 20px;
+    border-radius: 0 0 20px 20px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 3px 15px 0px #0000001A;
 }
@@ -397,24 +387,22 @@ a {
 .activite-card img {
     width: 100%;
     height: 380px;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 0 0;
     object-fit: cover;
 }
 
 .activite-card h4 {
     font-size: 16px;
     margin: 15px 20px 25px 20px;
-
 }
 
 /****** Footer ***********/
-
 .footer-content {
     width: 100%;
     height: 163px;
     display: flex;
     background-color: var(--main-bg-color);
-    margin: 20px 0px 0px 0px;
+    margin: 20px 0 0 0;
 }
 
 .footer-1,
@@ -424,7 +412,7 @@ a {
     flex-direction: column;
     width: 100%;
     height: 163px;
-    line-height: 0px;
+    line-height: 0;
 }
 
 .footer-1 h3,
@@ -433,10 +421,8 @@ a {
 .footer-2 p,
 .footer-3 h3,
 .footer-3 p {
-    margin: 35px 0px 0px 23px;
+    margin: 35px 0 0 23px;
 }
-
-/* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
@@ -495,12 +481,9 @@ a {
         flex-direction: column;
         align-items: flex-start;
     }
+}
 
-    .filtre h3 {}
-
-
-
-    /* Small devices (phones, less than 768px) */
-    @media (max-width: 767.98px) {
-        /* Add your responsive styles for small devices here */
-    }
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+    /* Add your responsive styles for small devices here */
+}

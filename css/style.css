@@ -404,10 +404,7 @@ a {
     background-color: var(--main-bg-color);
     margin: 20px 0 0 0;
 }
-
-.footer-1,
-.footer-2,
-.footer-3 {
+.footer {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -415,14 +412,13 @@ a {
     line-height: 0;
 }
 
-.footer-1 h3,
-.footer-1 p,
-.footer-2 h3,
-.footer-2 p,
-.footer-3 h3,
-.footer-3 p {
+.footer h3 {
     margin: 35px 0 0 23px;
 }
+.footer p {
+    margin: 35px 0 0 23px;
+}
+
 
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
@@ -480,6 +476,9 @@ a {
     .filtre {
         flex-direction: column;
         align-items: flex-start;
+    }
+    .filtre-bouton {
+        margin: 0;
     }
 }
 

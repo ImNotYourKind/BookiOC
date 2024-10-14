@@ -177,82 +177,42 @@ margin: 0 0 30px 0;
     align-items: center;
     margin: 20px 0;
 max-width: 758px;
-background-color: aqua;
 
 } 
-.bouton1 {
+.bouton {
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    width: 173px;
 height: 50px;
 border-radius: 25px 25px 25px 25px;
 border: 2px solid #D9D9D9;
+padding: 0 19px;
 font-size: 17px;
 font-weight: bold;
 background-color: white;
 }
+
 .fa-solid.fa-money-bill-wave {
     font-size: 20px;
 }
-.bouton1:hover {
+.bouton i {
+    margin-right: 10px;
+}
+.bouton:hover {
     background-color: #DEEBFF;
 }
 
-.bouton2 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 134px;
-height: 50px;
-border-radius: 25px 25px 25px 25px;
-border: 2px solid #D9D9D9;
-font-size: 17px;
-font-weight: bold;
-background-color: white;
-}
 .fa-solid.fa-person {
     font-size: 22px;
 }
-.bouton2:hover {
-    background-color: #DEEBFF;
-}
-.bouton3 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 170px;
-height: 50px;
-border-radius: 25px 25px 25px 25px;
-border: 2px solid #D9D9D9;
-font-size: 17px;
-font-weight: bold;
-background-color: white;
-}
+
 .fa-solid.fa-heart {
     font-size: 22px;
 }
-.bouton3:hover {
-    background-color: #DEEBFF;
-}
-.bouton4 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 167px;
-height: 50px;
-border-radius: 25px 25px 25px 25px;
-border: 2px solid #D9D9D9;
-font-size: 17px;
-font-weight: bold;
-background-color: white;
-}
+
 .fa-solid.fa-fire  {
     font-size: 21px;
 }   
-.bouton4:hover {
-    background-color: #DEEBFF;
-}
+
 .infobarre {
     display: flex ;
     align-items: center ;

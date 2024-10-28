@@ -16,6 +16,7 @@
 body {
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 
 .main-container {
@@ -391,7 +392,7 @@ a {
 .footer-content {
     height: 163px;
     display: flex;
-    background-color: rgb(172, 172, 220);
+    background-color: rgba(242, 242, 242, 1);
     margin: 20px 0 0 0;
 }
 
@@ -479,18 +480,10 @@ a {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
 
-    * {
-        margin-right: 0;
-        margin-left: 0;
-
-
-    }
 
     .main-container {
         padding: 0;
-
     }
-
 
     .headercontent {
         flex-direction: column;
@@ -519,6 +512,10 @@ a {
         padding-top: 0;
         border-top: 0;
     }
+
+.navcontent a:focus {
+    border-bottom: 2px solid #0065fc;
+}
 
     .infogroup {
         margin-top: 15px;
@@ -556,7 +553,6 @@ a {
 
     .filtre-bouton {
         flex-wrap: wrap;
-        max-width: 335px;
         min-width: 280px;
         height: 120px;
     }

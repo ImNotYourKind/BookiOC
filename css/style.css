@@ -513,9 +513,9 @@ a {
         border-top: 0;
     }
 
-.navcontent a:focus {
-    border-bottom: 2px solid #0065fc;
-}
+    .navcontent a:focus {
+        border-bottom: 2px solid #0065fc;
+    }
 
     .infogroup {
         margin-top: 15px;
